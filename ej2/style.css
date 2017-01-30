@@ -1,0 +1,14 @@
+#contenido{
+  width: 400px;
+  height: 100px;
+  border: 1px solid;
+}
+.rojo{
+  color: red;
+}
+.azul{
+  color: blue;
+}
+.amarillo{
+  color: #efa823;
+}

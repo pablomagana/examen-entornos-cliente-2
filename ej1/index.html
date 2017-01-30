@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../jquery-3.1.1.min.js"></script>
+  </head>
+  <body>
+<p>Examen cliente pablo magaña 2ª ev</p>
+<table>
+  <tr>
+    <td><img src="imagenesExamen/pezGota.jpg" id="o1" name="pezGota" ></td>
+    <td><img src="imagenesExamen/gatoEsfinge.jpg" id="o2" name="gatoEsfinge"></td>
+    <td><img src="imagenesExamen/ayeaye.jpg" id="o3"  name="ayeaye"></td>
+  </tr>
+  <tr id="centro">
+    <td ondragover="over(event)" ondrop="drop(this,event)" id="caja1" name="pezGota" ></td>
+    <td ondragover="over(event)" ondrop="drop(this,event)" id="caja2" name="gatoEsfinge"></td>
+    <td ondragover="over(event)" ondrop="drop(this,event)" id="caja3" name="ayeaye"></td>
+  </tr>
+  <tr>
+    <td><img src="imagenesExamen/pezGota.png" draggable="true" ondragstart="start(event)" id="pezGota"></td>
+    <td><img src="imagenesExamen/gatoEsfinge.png" draggable="true" ondragstart="start(event)" id="gatoEsfinge"></td>
+    <td><img src="imagenesExamen/ayeaye.png" draggable="true" ondragstart="start(event)" id="ayeaye"></td>
+  </tr>
+</table>
+<button onclick="comprobar()" type="button" name="button">comprobar</button>
+<script src="javascript.js" charset="utf-8"></script> 
+  </body>
+</html>

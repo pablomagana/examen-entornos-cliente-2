@@ -1,0 +1,17 @@
+tr{
+  background-image: url("imagenesExamen/fondo2.png");
+}
+td{
+  width: 150px;
+  height: 150px;
+}
+img{
+  background-image: url("imagenesExamen/fondo1.png");
+  width:150px;
+  padding:10px 10px 20px 10px;
+  margin: 10px;
+}
+button{
+  width: 100vh;
+  height: 50px;
+}
